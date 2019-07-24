@@ -1,6 +1,6 @@
 # Go: Channel
 
-## Critical operation a channel
+## Critical operation on a channel
 
 | Operation | Channel State | Result |
 |--|--|--|
