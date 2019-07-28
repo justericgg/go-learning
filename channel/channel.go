@@ -19,6 +19,13 @@ func main() {
 			}
 		}()
 
+		go func() {
+			defer close(myChan)
+			for i := 0; i <= 5; i++ {
+				myChan <- i
+			}
+		}()
+
 		return myChan
 	}
 
